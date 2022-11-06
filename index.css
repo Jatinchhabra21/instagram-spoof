@@ -39,7 +39,7 @@ header {
 }
 
 .post {
-    border-bottom: 25px solid #EDEDED;
+  border-bottom: 25px solid #ededed;
 }
 
 .post-header {
@@ -85,6 +85,11 @@ header {
   cursor: pointer;
 }
 
+.action:hover,
+.action:focus {
+  opacity: 0.7;
+}
+
 .like {
   font-size: 13px;
   font-weight: 700;
@@ -92,9 +97,9 @@ header {
 }
 
 .post-username {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .post-comment {
-    margin: 6px 0 16px 13px;
+  margin: 6px 0 16px 13px;
 }
