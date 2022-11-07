@@ -103,3 +103,61 @@ header {
 .post-comment {
   margin: 6px 0 16px 13px;
 }
+.like-animation {
+  transition-duration: 0.25s;
+  animation-duration: 0.35s;
+  animation-name: like-btn;
+}
+
+@keyframes like-btn{
+  0% {
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+  transform: scale(1);
+  }
+}
+
+@keyframes like-overlay{
+  0% {
+    transform: scale(0);
+  }
+  25% {
+    transform: scale(0.4);
+  }
+  50% {
+    transform: scale(0.3);
+  }
+  75% {
+    transform: scale(0.4);
+  }
+  100% {
+  transform: scale(0.2);
+  }
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  opacity: 0.5;
+  z-index: +1;
+  display: none;
+  width: 320px;
+}
+
+.post-like-animation {
+  transition-duration: 1s;
+  animation-duration: 0.7s;
+  animation-name: like-overlay;
+}
+
+.img-container {
+  position: relative;
+}
