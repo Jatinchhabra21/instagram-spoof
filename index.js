@@ -105,7 +105,7 @@ let posts = [
         postLike.classList.add("post-like-animation");
         setTimeout(function () {
           postLike.style.display = "none";
-        },400);
+        },480);
       }
       else {
         likeBtns[i].setAttribute("src","images/icon-heart-filled.png");
@@ -113,7 +113,7 @@ let posts = [
         postLike.classList.add("post-like-animation");
         setTimeout(function () {
           postLike.style.display = "none";
-        },400);
+        },480);
       }
     });
   }

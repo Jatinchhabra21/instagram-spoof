@@ -16,7 +16,7 @@ h6 {
 }
 
 .main-container {
-  width: 375px;
+  width: 500px;
   margin: 0 auto;
 }
 
@@ -39,7 +39,8 @@ header {
 }
 
 .post {
-  border-bottom: 25px solid #ededed;
+  border-bottom: 2px solid #ededed;
+  margin-bottom: 10px;
 }
 
 .post-header {
@@ -71,8 +72,8 @@ header {
 }
 
 .post-img {
-  width: 375px;
-  height: 375px;
+  width: 500px;
+  height: 500px;
 }
 
 .action-container {
@@ -125,17 +126,11 @@ header {
   0% {
     transform: scale(0);
   }
-  25% {
-    transform: scale(0.4);
-  }
   50% {
-    transform: scale(0.3);
-  }
-  75% {
     transform: scale(0.4);
   }
   100% {
-  transform: scale(0.2);
+    transform: scale(0.3);
   }
 }
 
@@ -154,7 +149,7 @@ header {
 
 .post-like-animation {
   transition-duration: 1s;
-  animation-duration: 0.7s;
+  animation-duration: 0.5s;
   animation-name: like-overlay;
 }
 
