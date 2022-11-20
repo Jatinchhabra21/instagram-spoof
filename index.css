@@ -2,7 +2,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 13px;
   font-weight: 400;
 }
@@ -110,7 +110,7 @@ header {
   animation-name: like-btn;
 }
 
-@keyframes like-btn{
+@keyframes like-btn {
   0% {
     transform: scale(0.8);
   }
@@ -118,19 +118,19 @@ header {
     transform: scale(1.2);
   }
   100% {
-  transform: scale(1);
+    transform: scale(1);
   }
 }
 
-@keyframes like-overlay{
+@keyframes like-overlay {
   0% {
     transform: scale(0);
   }
   50% {
-    transform: scale(0.4);
+    transform: scale(0.5);
   }
   100% {
-    transform: scale(0.3);
+    transform: scale(0.4);
   }
 }
 
