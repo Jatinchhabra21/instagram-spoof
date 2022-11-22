@@ -25,7 +25,7 @@ h6 {
 header {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 0.8em 0.35em;
   border-bottom: 1px solid #c6c6c6;
 }
